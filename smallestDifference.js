@@ -23,6 +23,5 @@ function smallestDifference(a, b){
 // The idea of this solution is to sort both arrays in order to have two pointers i and n, 
 // pointing to a and b respectively and always pointing to smallest element of each one. 
 // We will then make a while loop until both arrays are covered 
-// (having a time complexity of O(n + m), where n is the length of a, and m the length of b).
 // In each loop we will check if the difference of the elements pointing are smaller than the partial smallest.
 // We then will increase the pointer that has the smallest element, so we will always have the minimum difference (as it's ordered). 
